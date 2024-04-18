@@ -5,7 +5,6 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 from email.mime.text import MIMEText
-from PyPDF2 import PdfFileReader
 import os
 root = tk.Tk()
 def open_file():
